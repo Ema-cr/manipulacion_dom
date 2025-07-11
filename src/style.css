@@ -1,0 +1,128 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo general del body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+/* Formulario centrado y estilizado */
+form#userForm {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Etiquetas */
+label {
+  font-weight: bold;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="number"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+/* Botones */
+button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#saveButton {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#saveButton:hover {
+  background-color: #45a049;
+}
+
+#clearButton {
+  background-color: #f44336;
+  color: white;
+}
+
+#clearButton:hover {
+  background-color: #d32f2f;
+}
+
+/* Sección de resultados */
+#output,
+#interactionCount {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  form#userForm {
+    padding: 1rem;
+  }
+
+  #output,
+  #interactionCount {
+    font-size: 1rem;
+  }
+}
+
+
+/* Contenedor del logo */
+.img-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Imagen centrada y con tamaño adaptable */
+.img-inicio {
+  max-width: 50%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+  font-size: 3.5rem;
+  color: rgb(216, 141, 44);
+}
+
+.titulo-container {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+
+#output{
+  font-size: 3rem;
+}
+
+#interactionCount {
+  font-size: 2rem;
+}

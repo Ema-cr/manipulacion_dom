@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Formulario con LocalStorage y SessionStorage</title>
+  </head>
+  <body>
+    <div class="img-container">
+      <img src="./src/gato incomodo.jpg" alt="gato criticon" class="img-inicio" />
+    </div>
+
+    <div class="titulo-container">
+    <h1>Gato Visualizador de Storage</h1><br>
+    </div>
+
+    <form id="userForm">
+      <label for="name">Nombre: </label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="age">Edad: </label>
+      <input type="number" name="age" id="age" required />
+
+      <button type="button" id="saveButton">Guardar Datos</button>
+      <button type="button" id="clearButton">Limpiar Datos</button>
+    </form>
+
+    <!-- Donde se mostrará el mensaje con los datos del usuario -->
+    <div id="output"></div>
+
+    <!-- Donde se mostrará el contador de interacciones -->
+    <div id="interactionCount"></div>
+
+    <!-- Enlace al archivo JS externo -->
+    <script src="./src/main.js"></script>
+  </body>
+</html>
