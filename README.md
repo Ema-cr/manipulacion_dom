@@ -1,21 +1,17 @@
-# 📝 Formulario Interactivo con LocalStorage y SessionStorage
+# SPA Event Manager
+A Single Page Application (SPA) for course and user management, built with Vite, Vanilla JS, and SweetAlert2.
+---
 
-Este proyecto es una página web interactiva que permite al usuario ingresar su nombre y edad, almacenarlos en el navegador, y llevar un contador de interacciones por sesión.
+## 📌 Project objectives
+
+- Capture user data (name and age) through an HTML form.
+- Save the data at the store store of the browser.
+- Show the data every time the page is recharged.
+- This allows the user to navigate between pages without having to log in again each time.
 
 ---
 
-## 📌 Objetivos del Proyecto
-
-- Capturar datos del usuario (nombre y edad) mediante un formulario HTML.
-- Guardar los datos en el Local Storage del navegador.
-- Mostrar los datos cada vez que se recargue la página.
-- Contar las interacciones del usuario en la sesión actual con Session Storage.
-- Permitir al usuario limpiar los datos almacenados.
-- Estilizar el formulario y la interfaz para que sea agradable y responsive.
-
----
-
-## 🚀 Tecnologías Usadas
+## 🚀 Used technologies
 
 - HTML5
 - CSS3
@@ -26,46 +22,38 @@ Este proyecto es una página web interactiva que permite al usuario ingresar su 
 
 ## 🔧 Funcionalidades
 
-✅ Formulario con validación de nombre y edad  
-✅ Botón para guardar datos en LocalStorage  
+✅ Form with validation of name and age
 ✅ Mostrar los datos guardados al recargar la página  
-✅ Contador de interacciones con SessionStorage  
-✅ Botón para limpiar todos los datos  
-✅ Diseño responsive y organizado  
-✅ Imagen superior con título centrado
+✅ Responsive and Organized Design
 
 ---
 
 ## 🧠 ¿Cómo usarlo?
 
-1. Clona o descarga este repositorio.
-2. Asegúrate de tener los siguientes archivos en la misma carpeta:
+1. Clona or download this repository.
+2. Be sure to have the following files in the same folder:
    - `index.html`
    - `style.css`
    - `main.js`
-   - `logo.png` (opcional)
-3. Abre `index.html` en tu navegador favorito.
-4. ¡Empieza a interactuar con el formulario!
+   - `logo.png` (optional)
+3. Open `Index.html` in your favorite browser.
+4. Start interacting with the form!
 
 ---
 
-## 📦 Extras opcionales
+## 📦 Optional extras
 
-- [ ] Agregar animaciones al mostrar datos.
-- [ ] Conectar con `json-server` para simular una API.
-- [ ] Mostrar fecha u hora de última actualización.
-- [ ] Soporte para varios usuarios.
+- [ ] Connect with `Json-Server` to simulate an API.
 
 ---
 
 ## ✍️ Autor
 
 **Emanuel Gaviria** **LoveLace** **Gaviriacardonaemanuel@gmail.com** **1000920354**
-Estudiante de Desarrollo de Software  
-Desarrollado como parte de un ejercicio práctico para aplicar conocimientos sobre el DOM, almacenamiento local y validación de formularios en JavaScript.
+Software Development Student
+Developed as part of a practical exercise to apply knowledge about DOM, local storage and validation of forms in JavaScript.
 
 ---
 
-## 📄 Licencia
-
-Este proyecto es de uso educativo y libre. Puedes modificarlo y adaptarlo según tus necesidades.
+## 📄 License
+This project is for educational and free use. You can modify it and adapt it according to your needs.
