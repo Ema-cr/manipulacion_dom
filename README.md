@@ -60,7 +60,7 @@ Este proyecto es una página web interactiva que permite al usuario ingresar su 
 
 ## ✍️ Autor
 
-**Emanuel Gaviria**  
+**Emanuel Gaviria** **LoveLace** **Gaviriacardonaemanuel@gmail.com** **1000920354**
 Estudiante de Desarrollo de Software  
 Desarrollado como parte de un ejercicio práctico para aplicar conocimientos sobre el DOM, almacenamiento local y validación de formularios en JavaScript.
 
